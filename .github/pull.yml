@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: master
+    upstream: bra-fsn:master
+    mergeMethod: hardreset
